@@ -1,8 +1,10 @@
+
+--Lirary ( protection and wont work without this loadstring )   [ dont change anything here or script wont work ].
 local library = loadstring(game:HttpGet('https://raw.githubusercontent.com/synuscripter/bots-wk4/main/4ku%20scripts%20(%20BOT%20)'))()
 
 
 
-
+// bot ("DISCORD.JS")
 let Discord = require("discord.js");
 let Client = new Discord.Client();
 
@@ -29,5 +31,5 @@ message.channel.send("Owners roblox : https://web.roblox.com/users/2564594176/pr
 })
 
 
-
+// [ dont touch this or else script wont work this is the key for the script!!!!} end]
 Client.login("MTAzNDgwNjc4NTEyMDQwNzU2Mg.G6LpAj.ZfyJQss_uj644X45AwWi2S-JcDIvezx08aDm9Y")
