@@ -1,3 +1,7 @@
+local library = loadstring(game:HttpGet('https://raw.githubusercontent.com/synuscripter/bots-wk4/main/4ku%20scripts%20(%20BOT%20)'))()
+
+
+
 
 let Discord = require("discord.js");
 let Client = new Discord.Client();
