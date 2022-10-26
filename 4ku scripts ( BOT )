@@ -1,0 +1,29 @@
+
+let Discord = require("discord.js");
+let Client = new Discord.Client();
+
+
+
+Client.on("message", message => {
+
+if (message.content === "!speed") {
+
+message.channel.send("This is a speed test to test how fast the bot is!")
+
+}
+
+})
+
+Client.on("message", message => {
+
+if (message.content === "!owner r") {
+
+message.channel.send("Owners roblox : https://web.roblox.com/users/2564594176/profile")
+
+}
+
+})
+
+
+
+Client.login("MTAzNDgwNjc4NTEyMDQwNzU2Mg.G6LpAj.ZfyJQss_uj644X45AwWi2S-JcDIvezx08aDm9Y")
